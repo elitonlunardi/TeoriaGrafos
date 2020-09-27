@@ -202,7 +202,6 @@ public class Classificacao {
 		int qtdArestasTotal = 0;	
 		String saidaParcial = "E = {";
 		boolean primeiraVez = true;
-		List<String> arestas = new ArrayList<String>();
 		
 		for (int i = 0; i < matrizAdjacencia.length; i++) {
 			for (int j = 0; j < matrizAdjacencia[0].length; j++) {					
